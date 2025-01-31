@@ -4,8 +4,13 @@ html {
 
 h1{
     font-size: 6rem;
+    border-bottom:1rem;
+    width: 300rem;
 }
 
-a {
+.sinki1 {
+    display: flex;
+    font-size: 4rem;
+    border: 0.1rem solid black;
     
 }
