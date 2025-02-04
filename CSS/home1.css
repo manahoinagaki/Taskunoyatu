@@ -13,6 +13,10 @@ header{
     height: 5rem;
 }
 
+.search{
+    display: flex;
+}
+
 .sentaku{
     display: flex;
     justify-content: center;
