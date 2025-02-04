@@ -9,15 +9,21 @@
 </head>
 
 <body>
-    <h1> 組織名 </h1>
+    <header>
+        <img class="header_icon" src="../view/aorun_icon.png" alt="aorun">
+        <samp> 組織名 </samp>
+        <samp>名前</samp>
+    </header>
 
-    <p>リスト</p>
-    <p>カレンダー</p>
+    <div class="search">
+        <samp class="sentaku">リスト</samp>
+        <samp class="sentaku">カレンダー</samp>
 
-    <label for="site-search"></label>
-    <input type="search" id="site-search" name="q" />
-    <!-- フィルターができるようにする -->
-    <button>検索</button>
+        <label for="site-search"></label>
+        <input type="search" id="site-search" name="q" />
+        <!-- フィルターができるようにする -->
+        <button>検索</button>
+    </div>
 
     <div class="task>
         <ul>
@@ -34,13 +40,13 @@
         </ul>
     </div>
 
-    <div class="bottom">
-        <img src="../view/finished_icon.png" alt="check">
-        <img src="../view/personal_icon.png" alt="personal">
-        <img src="../view/add_task_icon.png" alt="new">
-        <img src="../view/team_icon.png" alt="team">
-        <img src="../view/option_icon.png" alt="option">
-    </div>
+    <footer>
+        <img class="footer_icon" src="../view/finished_icon.png" alt="check">
+        <img class="footer_icon" src="../view/personal_icon.png" alt="personal">
+        <img class="footer_icon" src="../view/add_task_icon.png" alt="new">
+        <img class="footer_icon" src="../view/team_icon.png" alt="team">
+        <img class="footer_icon" src="../view/option_icon.png" alt="option">
+    </footer>
 
 </body>
 
