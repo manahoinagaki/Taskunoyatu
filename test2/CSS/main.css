@@ -1,0 +1,46 @@
+html {
+    font-size: 10px;
+}
+/* ヘッダー */
+header{
+    display: flex;
+    justify-content:center;
+    font-size: 4rem;
+}
+
+.header_icon{
+    width: 5rem;
+    height: 5rem;
+}
+
+.sosiki{
+    display: flex;
+    justify-content: left;
+}
+
+.senntaku{
+    display: flex;
+    justify-content: center;
+}
+
+.sentaku{
+    display: flex;
+    margin: 0rem 0.3rem 0rem 0.3rem;
+    font-size: 1rem;
+    width: 6rem;
+    justify-content: center;
+    border: 0.1rem solid black;
+    border-radius: 50%;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+   margin: 1rem 0rem 1rem 0rem; 
+}
+
+
+.footer_icon{
+    width: 4rem;
+    height: 4rem;
+}
