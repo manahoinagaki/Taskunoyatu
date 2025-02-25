@@ -1,10 +1,23 @@
 html {
     font-size: 10px;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
 }
+
 /* ヘッダー */
-header{
+.header{
     display: flex;
-    justify-content:center;
+    position: sticky;
+    margin: 0rem 0rem 0rem 0rem;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    border: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    background-color: rgb(236, 221, 251);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.416);
+    text-align: center;
     font-size: 4rem;
 }
 
@@ -39,7 +52,9 @@ header{
    margin: 1rem 0rem 1rem 0rem; 
 }
 
-
+footer{
+    
+}
 .footer_icon{
     width: 4rem;
     height: 4rem;
