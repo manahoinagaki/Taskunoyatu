@@ -2,9 +2,30 @@ html {
     font-size: 10px;
     font-family: sans-serif;
     font-optical-sizing: auto;
+    box-sizing: border-box;
 }
 
+view {
+    width: 50px;
+    height: 50px;
+}
+
+.icon {
+    padding: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid black;
+    border-radius: 50%;
+}
+
+ul,li{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+
 /* ヘッダー */
+
 .header{
     display: flex;
     position: sticky;
@@ -19,6 +40,25 @@ html {
     font-size: 4rem;
 }
 
+.header a:nth-of-type(1){
+    order: 1;
+}
+
+.header_text {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.header_text a:nth-of-type(2){
+    order: 3;
+}
+
+.header_text a img:hover{
+    background-color: rgba(93, 2, 154, 0.694);
+}
+
 .header_icon{
     width: 5rem;
     height: 5rem;
@@ -26,6 +66,8 @@ html {
     border: 0.2rem solid black;
     border-radius: 50% ;
 }
+
+
 
 .sosiki{
     display: flex;
